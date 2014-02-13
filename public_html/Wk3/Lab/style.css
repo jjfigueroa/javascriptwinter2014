@@ -32,9 +32,9 @@ and open the template in the editor.
     animation-iteration-count: infinite;
     animation-direction: alternate;
 
-    border: 1px solid black;
+    border: 1px greenyellow;
     font-size: 1em;
-    width: 500px;
+    width: 700px;
     height: 80px;
 
   }
