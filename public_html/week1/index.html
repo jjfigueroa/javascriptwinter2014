@@ -36,37 +36,90 @@ and open the template in the editor.
         what you have done. comments can be added with /* [comment] */
         -->
         <script type="text/javascript">
-        var mystring = "string";
-        console.log(mystring);
-        var mystring2 = "string 2 " + mystring;
-        console.log(mystring2);
+        
+    /* my variables */
+    var mystring1 = "string";
+        // console.log(mystring);
+        var mystring2 = "string 2 " + mystring1;
+       // console.log(mystring2);
         var num1 = 0;
-        var num2 = "0";
-        if ( num1 === num2 ){
-            console.log("num1=num2");
-        } else if (num1==num2){
-            console.log("num1=num2");
+        var num2 = 1;
+        var bool1 = true;
+        var bool2 = false;
+       
+    /* comparisons */
+    
+    if ( num1 === num2 )
+    {
+            console.log( "num1 === num2" );
+        } 
+        else if (num1 == num2)
+        {
+            console.log( "num1 == num2" );
         }
-        for (var i = 0; i<=10; i++){
+         
+    
+    
+     if ( num1 === bool2 )
+     {
+            console.log( " num1 === bool2" );
+        }
+        else if (num1 == bool2)
+        {
+            console.log( "num1 == bool2" );
+        }
+      
+            if ( num1 === mystring1 )
+            {
+                console.log("num1 === mystring1");                
+            }  
+            else if ( num1 == mystring1 )
+            {
+               console.log("num1 == mystring1") ;
+                    
+                }
+             if ( bool1 === mystring1 )
+            { 
+                console.log("bool1 === mystring1");                
+            }  
+            else if ( bool1 == mystring1 )
+            {
+               console.log("bool1 == mystring1") ;
+                    
+                } 
+                if ( bool1 === bool2 )
+            {
+                console.log("bool1 === bool2");                
+            }  
+            else if ( bool1 == bool2 )
+            {
+               console.log("bool1 == bool2") ;
+                    
+                }
+     if ( mystring1 === mystring2 )
+            {
+                console.log("mystring1 === mystring2");                
+            } 
+            else if ( mystring1 == mystring2 )
+            {
+               console.log("mystring1 == mystring2") ;
+           }
+    
+    /* count 1 - 10 &10 - 1 */
+    for (var i = 0; i<=10; i++){
             console.log(i);
         } 
         for (var o = 10; o>-1; o--) {
             console.log(o);
-           
-        }       
-        var num0 = false;
-            while( !num0 )
-            { console.log("num0");                
-                if ( !num0 )
-                {   console.log("num0 = true") ;
-                    num0 = true;
-                }
-            }
+             }   
+      
+     
             
+            /* extra 
             do {
                 num0 = true;                
             } while ( !num0 )
-            console.log("num0");
+            console.log("num0");*/
          </script>
         
     </body>

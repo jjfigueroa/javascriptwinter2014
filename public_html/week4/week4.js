@@ -16,6 +16,13 @@ userdata.email =  emailObj.value;
 }
 emailObj.addEventListener('blur',setEmail);
 
+var fullnameObj = document.getElementById('fullname');
+function setFullName() {
+userdata.username =  fullnameObj.value;
+    
+}
+fullnameObj.addEventListener('blur',setFullName);
+
 function showResults() {
     console.clear();
     console.log(userdata);
